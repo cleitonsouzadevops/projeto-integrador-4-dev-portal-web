@@ -12,8 +12,6 @@ contabilidadeX
     │   └── style_login.css
     ├── database
     │   ├── conexao.php
-    │   ├── conexao.php_ori
-    │   └── conexao_teste.php
     ├── img
     │   ├── foto1.jpg
     │   └── foto2.jpg
