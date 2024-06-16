@@ -1,0 +1,36 @@
+# Abaixo terá o código da criaçaõ do banco de dados usado para a contabilidadex
+
+
+CREATE DATABASE contabilidadeX;
+USE contabilidadeX;
+# Criar tabela usuarios
+
+# Dando permissão a um usuário
+GRANT ALL PRIVILEGES ON contabilidadeX.* TO cleiton@'localhost' IDENTIFIED BY '13314@';
+
+
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+
+# Criar tabela clientes
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    telefone VARCHAR(20),
+    endereco TEXT
+);
+
+# Criar tabela produtos
+
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    descricao TEXT,
+    preco DECIMAL(10, 2)
+);
