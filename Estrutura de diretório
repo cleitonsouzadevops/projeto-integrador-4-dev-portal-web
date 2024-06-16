@@ -1,0 +1,31 @@
+# Abaixo está a estrutura dos diretórios feito para criação das páginas Web
+
+contabilidadeX
+    ├── admin_clientes.php
+    ├── admin_produtos.php
+    ├── admin_usuario.php
+    ├── admin_usuarios.php
+    ├── cadastro.php
+    ├── clientes.php
+    ├── css
+    │   ├── style.css
+    │   └── style_login.css
+    ├── database
+    │   ├── conexao.php
+    │   ├── conexao.php_ori
+    │   └── conexao_teste.php
+    ├── img
+    │   ├── foto1.jpg
+    │   └── foto2.jpg
+    ├── index.html
+    ├── js
+    │   └── script.js
+    ├── login.php
+    ├── processa_cadastro.php
+    ├── processa_cliente.php
+    ├── processa_exclusao_cliente.php
+    ├── processa_exclusao_usuario.php
+    ├── processa_produto.php
+    ├── processa_usuarios.php
+    ├── produtos.php
+    └── usuario.php
